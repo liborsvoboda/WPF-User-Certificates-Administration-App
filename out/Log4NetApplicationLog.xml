@@ -1,0 +1,63 @@
+<log4j:event logger="GenCert.MainWindow" timestamp="1583154464147" level="DEBUG" thread="1"><log4j:message>GenCert started ...</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.MainWindow" method=".ctor" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.MainWindow" timestamp="1583154464193" level="INFO" thread="1"><log4j:message>GenCert started ...</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.MainWindow" method=".ctor" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.MainWindow" timestamp="1583154464196" level="WARN" thread="1"><log4j:message>GenCert started ...</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.MainWindow" method=".ctor" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.MainWindow" timestamp="1583154464197" level="ERROR" thread="1"><log4j:message>GenCert started ...</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.MainWindow" method=".ctor" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.MainWindow" timestamp="1583154464198" level="FATAL" thread="1"><log4j:message>GenCert started ...</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.MainWindow" method=".ctor" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464256" level="WARN" thread="1"><log4j:message>System.NullReferenceException: Odkaz na objekt není nastaven na instanci objektu.
+   v GenCert.functions.Functions.fn_LoadSettings()</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464315" level="WARN" thread="1"><log4j:message>System.InvalidOperationException: Posloupnost obsahuje více než jeden odpovídající prvek.
+   v System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464323" level="WARN" thread="1"><log4j:message>MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---&gt; System.InvalidOperationException: Posloupnost obsahuje více než jeden odpovídající prvek.
+   v System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   v MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.NativeDriver.Open()</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464327" level="WARN" thread="1"><log4j:message>MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---&gt; System.InvalidOperationException: Posloupnost obsahuje více než jeden odpovídající prvek.
+   v System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   v MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.Driver.Open()
+   v MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464329" level="WARN" thread="1"><log4j:message>MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---&gt; System.InvalidOperationException: Posloupnost obsahuje více než jeden odpovídající prvek.
+   v System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   v MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.Driver.Open()
+   v MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   v MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   v MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154464330" level="WARN" thread="1"><log4j:message>MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts. ---&gt; System.InvalidOperationException: Posloupnost obsahuje více než jeden odpovídající prvek.
+   v System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   v MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.NativeDriver.Open()
+   v MySql.Data.MySqlClient.Driver.Open()
+   v MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   v MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   v MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   v MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   v MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   v MySql.Data.MySqlClient.MySqlConnection.Open()</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154466481" level="WARN" thread="1"><log4j:message>System.IO.FileNotFoundException: Nelze naèíst soubor nebo sestavení ControlzEx.XmlSerializers, Version=3.0.2.4, Culture=neutral, PublicKeyToken=null nebo jeden z jejich závislých prvkù. Systém nemùže nalézt uvedený soubor.
+Název souboru: ControlzEx.XmlSerializers, Version=3.0.2.4, Culture=neutral, PublicKeyToken=null
+   v System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   v System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+
+WRN: Protokolování vazeb sestavení je VYPNUTO.
+Chcete-li povolit protokolování chyb vazeb sestavení, nastavte hodnotu registru [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) na hodnotu 1.
+Poznámka: Protokolování chyb vazeb sestavení ovlivòuje výkon systému.
+Chcete-li tuto funkci vypnout, odeberte z registru hodnotu [HKLM\Software\Microsoft\Fusion!EnableLog].
+</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>
+<log4j:event logger="GenCert.App" timestamp="1583154466493" level="WARN" thread="1"><log4j:message>System.IO.FileNotFoundException: Nelze naèíst soubor nebo sestavení ControlzEx.XmlSerializers nebo jeden z jejich závislých prvkù. Systém nemùže nalézt uvedený soubor.
+Název souboru: ControlzEx.XmlSerializers
+   v System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   v System.Reflection.RuntimeAssembly.LoadWithPartialNameInternal(AssemblyName an, Evidence securityEvidence, StackCrawlMark&amp; stackMark)
+
+WRN: Protokolování vazeb sestavení je VYPNUTO.
+Chcete-li povolit protokolování chyb vazeb sestavení, nastavte hodnotu registru [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) na hodnotu 1.
+Poznámka: Protokolování chyb vazeb sestavení ovlivòuje výkon systému.
+Chcete-li tuto funkci vypnout, odeberte z registru hodnotu [HKLM\Software\Microsoft\Fusion!EnableLog].
+</log4j:message><log4j:properties><log4j:data name="log4jmachinename" value="KRABICE" /><log4j:data name="log4japp" value="GenCert.exe" /><log4j:data name="log4net:UserName" value="KRABICE\tatka" /><log4j:data name="log4net:Identity" value="" /><log4j:data name="log4net:HostName" value="KRABICE" /></log4j:properties><log4j:locationInfo class="GenCert.App" method="CurrentDomain_FirstChanceException" file="" line="0" /></log4j:event>

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverCertificateAdmin", "GenCert\DriverCertificateAdmin.csproj", "{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashReporterWPF.Net", "CrashReporterWPF.Net\CrashReporterWPF.Net.csproj", "{7696262E-45FC-4F68-A65E-468CD988CBC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Trace|Any CPU = Trace|Any CPU
+		Trace|x64 = Trace|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Debug|x64.Build.0 = Debug|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Release|x64.ActiveCfg = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Release|x64.Build.0 = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Trace|Any CPU.ActiveCfg = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Trace|Any CPU.Build.0 = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Trace|x64.ActiveCfg = Release|Any CPU
+		{0F56EDA9-CF7F-4C49-A67B-3FCD434D4902}.Trace|x64.Build.0 = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Debug|x64.Build.0 = Debug|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Release|x64.ActiveCfg = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Release|x64.Build.0 = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Trace|Any CPU.ActiveCfg = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Trace|Any CPU.Build.0 = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Trace|x64.ActiveCfg = Release|Any CPU
+		{7696262E-45FC-4F68-A65E-468CD988CBC2}.Trace|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7532950-93F7-4581-9361-0F9D1CCB8CAD}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = crypto\BouncyCastle.csproj
+	EndGlobalSection
+EndGlobal

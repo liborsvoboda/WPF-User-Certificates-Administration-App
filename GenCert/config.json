@@ -1,0 +1,12 @@
+{
+  "WSDLServer1": "",
+  "CertPassword": "",
+  "MySQLServer": "",
+  "MySQLPort": "3306",
+  "MySQLLoginName": "",
+  "MySQLLoginPassword": "",
+  "MySQLDbName": "",
+  "WriteToLog": true,
+  "CertificateSavingPath": "c:\\Certificates",
+  "openSslVersion": "64"
+}
